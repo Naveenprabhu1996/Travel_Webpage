@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.landingPage_container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(Images/man-boat-lake-mountains\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+
+
+}
+
+.grid_Container {
+    display: grid;
+    align-items: center;
+
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 56px;
+    width: 100%;
+
+
+
+}
+
+header .logo {
+    width: 36px;
+    height: auto;
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+    padding: 12px;
+    color: white;
+    position: relative;
+
+}
+
+header button {
+    border: none;
+    padding: 16px 32px;
+    border-radius: 50px;
+    background: linear-gradient(to left top, #0C8346, #074A28);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.main_section {
+    margin-top: 50px;
+}
+
+.main_section h1 {
+    font-size: 54px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main_section h6 {
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+
+
+.bottom_section {
+    width: 90%;
+    height: 86px;
+    padding: 56px;
+    border: 1px solid green;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px auto 20px auto;
+    border-radius: 8px;
+
+
+}
+
+.bottom_section input {
+    padding: 12px 24px;
+    margin: 24px;
+
+
+}
+
+.bottom_section a {
+    text-decoration: none;
+    padding: 12px 42px;
+    margin: 24px;
+    background: linear-gradient(to left top, #0C8346, #074A28);
+    color: white;
+    border-radius: 6px;
+}
+
+.main_section .sliders {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px auto 0 auto;
+    width: 10%;
+
+
+}
+
+.main_section .sliders .slider {
+    width: 56px;
+    height: 4px;
+    background-color: white;
+    margin: 8px;
+    border-radius: 6px;
+
+
+}
+
+.main_section .sliders .active {
+
+    background-color: #074A28;
+}
